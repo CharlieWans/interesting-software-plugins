@@ -4,6 +4,12 @@
 
 > 像素风形象致敬电影《像素大战》(Pixels)。素材为代码生成的像素画，非官方素材。
 
+## 创作者简介 / About the Creator
+
+本人是一位新人创作者，也是在读大学生。这个娱乐小插件目前还有很多地方需要完善，包括形象、动画展示、应用前端优化。欢迎广大对桌面娱乐插件感兴趣的创作者提出更改和优化建议哦。未来我还会探索更多有意思的创作内容。
+
+As a new creator and a college student, I am still working on this lightweight desktop-entertainment plugin. Multiple areas remain to be improved, including character design, animation presentation, and frontend optimization. Creators interested in desktop entertainment plugins are welcome to share your suggestions for modifications and optimizations. I will also explore more interesting creative content in the future.
+
 ## 功能
 
 - 右键任意文件 / 文件夹 → 选择 **"吃豆人删除"** → 触发动画
