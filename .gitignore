@@ -1,0 +1,34 @@
+# 依赖
+node_modules/
+vendor/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志
+*.log
+
+# 编译输出
+dist/
+build/
+*.spec
+
+# 打包 / 安装产物
+scripts/Output/
+
+# 本机整理与测试时保留的文件
+legacy-prototype/
+吃豆删除小玩意.zip
+右键菜单测试文件.txt
