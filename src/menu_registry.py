@@ -96,8 +96,12 @@ def _keys():
 
 
 def _legacy_keys():
-    """清理旧测试版曾注册的文件夹空白处菜单。"""
-    return [r"Software\Classes\Directory\Background\shell\PacManDelete"]
+    """清理旧测试版曾注册的多余菜单位置。"""
+    return [
+        r"Software\Classes\Directory\Background\shell\PacManDelete",
+        # 早期测试版写入 Folder；这会在右键文件夹时留下重复的旧菜单。
+        r"Software\Classes\Folder\shell\PacManDelete",
+    ]
 
 
 def _remove_key(base):
