@@ -101,6 +101,12 @@ def _legacy_keys():
         r"Software\Classes\Directory\Background\shell\PacManDelete",
         # 早期测试版写入 Folder；这会在右键文件夹时留下重复的旧菜单。
         r"Software\Classes\Folder\shell\PacManDelete",
+        # 最初从桌面旧项目注册的废弃版本（无图标）。
+        r"Software\Classes\*\shell\DragonDelete",
+        r"Software\Classes\Directory\shell\DragonDelete",
+        # 开发期间注册的“桌面对齐测试”版本。
+        r"Software\Classes\*\shell\PacManDeleteDesktopTest",
+        r"Software\Classes\Directory\shell\PacManDeleteDesktopTest",
     ]
 
 
